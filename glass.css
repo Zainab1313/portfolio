@@ -195,6 +195,9 @@ card {
     .big-heading {
         text-align: center;
     }
+     .container {
+        height: 200vh;
+    }
 }
 
 .section2 {
