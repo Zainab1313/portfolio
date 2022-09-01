@@ -80,10 +80,12 @@
     transition: background 0.5s;
 }
 
+
+
 .card {
-    margin: 15px;
+    margin: 10px;
     background-color: transparent;
-    border-color: #fff;
+    border-color: white;
     border-radius: 20px;
 
 
@@ -119,10 +121,42 @@
     padding: 0%;
 }
 
+.title-heading {
+
+    background: -webkit-linear-gradient(-45deg, #c7bbd4, #8f46b3, #b746d4, #bf06a0);
+    animation: gradient 10s ease infinite;
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin-top: 20px;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    text-align: left;
+}
+
+#about {
+    background: url(back.png);
+}
+
+#about1 h1 {
+    text-align: center;
+}
+
+.big-heading {
+
+    margin-top: 20px;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    text-align: centre;
+}
+
 .section1 {
 
-    background: linear-gradient(-45deg, #210044, #440067, #6e0b87, #910079);
-    animation: gradient 15s ease infinite;
+    background: linear-gradient(-45deg, #17012e, #4c0271, #7c1695, #bf06a0);
+    animation: gradient 10s ease infinite;
     background-size: 400% 400%;
     font-family: 'Pacifico', cursive;
     color: white;
@@ -148,34 +182,43 @@
 
 }
 
+
 card {
     margin: 5px;
+
 }
 
 .navbar {
     padding: 0 0 4.5rem 0;
+
 }
 
-.big-heading {
-    margin-top: 80px;
-    font-size: 3.5rem;
-    line-height: 1.5;
-    font-weight: 900;
+.big-desc {
+    text-align: left;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+
 }
+
+.title-img {}
 
 .nav-item {
     padding: 0 18px;
     font-size: 18px;
 }
 
-.nav-item .resume {
-    color: #ff01cf;
+
+
+
+.card1 h1 {
+    color: #17012e;
 }
 
 .navbar-brand {
+    font-family: 'Cookie', cursive;
 
-    font-size: 2.5 rem;
     font-weight: bold;
+    font-size: xx-large;
 
 }
 
@@ -192,21 +235,30 @@ card {
         text-align: center;
     }
 
-    .big-heading {
+    .title-heading {
         text-align: center;
     }
-     .container {
+
+    .container {
         height: 200vh;
     }
+
+    .big-desc {
+        text-align: center;
+    }
+
+
+
+    ;
 }
 
 .section2 {
-    background-color: white;
-    height: 100vh
+    background-color: #ede8f0;
+
 }
 
 #footer {
-    color: #ffffff;
+    color: #ff01cf;
     text-align: center;
     padding: 50px 0;
 
@@ -219,8 +271,7 @@ card {
 }
 
 #footer a {
-
-    color: white;
+    color: #ff01cf;
 }
 
 #footer i {
@@ -229,7 +280,7 @@ card {
 }
 
 #footer a:hover {
-    color: #ff01cf;
+    color: #ba99cb;
 }
 
 /* dark purple: #440067
